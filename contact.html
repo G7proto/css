@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="shortcut icon" href="assets/icon.png.png" type="image/png">
+    <link rel="stylesheet" href="contact.css">
+    <meta name="description" content="welcome to my Porfolio">
+    <meta name="author" content="Rahul">
+    <meta property="og:title" content="Rahul profile" />
+    <meta property="og:type" content="profile" />
+    <meta name="twitter:title" content="Rahul | Porfolio ">
+    <meta name="twitter:description" content="welcome to my Porfolio ">
+</head>
+    <body style="background-color:rgb(20, 189, 105);"></body>
+
+     <!-- header start -->
+     <header id="home">
+        <div>
+            <h1 style="width: 100%;height: 5vh;background-color: rgb(18, 137, 241);">Portfolio</h1>
+            <img src="assets/profile pic.jpg"; style="border-radius: 30px;" alt="My Profile Picture" width="80">
+        </div>
+        <nav>
+            <a href="/Index.html">Home</a>
+
+        </nav>
+        <div>
+            <button>Login</button>
+        </div>
+    </header>
+    <!-- header end -->
+   
+ <!-- Contact Form Start -->
+ <section id="contact">
+    <h2 style="width: 100%;height: 7vh;background-color: rgb(17, 106, 184);">Contact Me</h2>
+    <form>
+        <div>
+        <label class="proto" for="name">User Name:</label><br>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name" required>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter your Last Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your Email id" required>
+            </div>
+            <br>
+        <div>
+            <label for="Phone number">Phone Number:</label><br>
+            <input type="tel" id="Phone" placeholder="Enter your Phone Number" pattern="[0-9]{10}" maxlength="13" required>
+            </div>
+            <br>
+        <div>
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" placeholder="Please Type your Subject" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="course">Course</label>
+            <select id="course" name="course">
+              <option value="">MongoDB</option><br>
+              <option value="">Python</option><br>
+              <option value="">C++</option><br>
+              <option value="">CSS</option><br>
+              <option value="">ReactJS</option><br>
+              <option value="">HTML</option><br>
+              <option value="">Node.js</option><br>
+              <option value="">JavaScript</option><br>
+              <option value="">MSQL</option><br>
+              <option value="">PHP</option><br>
+              <option value="">Angular</option><br>
+              <option value="">Oracle</option><br>
+              </select>
+            </div>
+            <br>
+            <div>
+        <label for="message">Message:</label><br> 
+        <textarea id="text" cols="30" rows="10" placeholder="Type Something..."required></textarea>
+        </div>
+
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</section>
+<!-- Contact Form End -->
+
+</body>
+</html>
